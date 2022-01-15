@@ -1,0 +1,117 @@
+
+
+
+header {
+    margin: 100px;
+}
+
+/*==========================================================
+                           Navigation
+===========================================================*/
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.tosco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.tosco-nav-warpper {
+    padding: 0 70px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #d3d034;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.tosco-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
+}
+
+.navbar-brand img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    
+    
+    
+
+}
+/*==========================================================
+                           Home
+===========================================================*/
+
+#home {
+   height: 10%;
+}
+
+#home-cover {
+    height: 500px;
+    background-image: url(../img/background/img-1.jpg);
+}
+#home-content-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+}
+
+#home-content-box-inner {
+    padding: 15px;
+
+}
+#home-heading h3 {
+    color: #fffffff5;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+#home-heading h4 {
+    color: #d3d034;
+    font-size: 25px;
+    font-weight: 500px;
+    text-align: left;
+}
+
+/*==========================================================
+                    PARALLAX (Generic)
+===========================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
